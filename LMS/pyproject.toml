@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "LMS"
+version = "0.1.0"
+description = "[BACKEND] This is a project of Learning Management System"
+authors = ["Rupesh Nepal <rupeshrnepal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.1"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
