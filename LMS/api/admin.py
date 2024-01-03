@@ -4,6 +4,5 @@ from .models import *
 # Register your models here.
 
 
-admin.site.register([Users,Role])
-
+admin.site.register([User,Role])
 

@@ -13,7 +13,7 @@ class Role(models.Model):
     def __str__(self) -> str:
         return str(self.RoleID) +"::" + str(self.RoleName)
 
-class Users(models.Model):
+class User(models.Model):
     # data fields for the models (attributes or columns of tables )
     ID = models.IntegerField(primary_key=True , auto_created=True)
     DateCreated = models.DateTimeField(auto_now_add=True)

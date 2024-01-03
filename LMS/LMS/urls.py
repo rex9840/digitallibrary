@@ -33,7 +33,7 @@ urlpatterns = [
 
 # for view redirection
 
+
 urlpatterns += [
     path('', RedirectView.as_view(url='api/', permanent=True)),
 ]
-
