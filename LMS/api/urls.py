@@ -3,6 +3,10 @@ from . import views
 
 
 
-urlpatterns = []
+urlpatterns = [
+    path('users/', views.user_list),
+        
+
+]
 
 

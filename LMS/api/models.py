@@ -1,4 +1,5 @@
 from django.db import models
+import uuid
 
 
 
@@ -14,10 +15,11 @@ class Role(models.Model):
         return str(self.RoleID) +"::" + str(self.RoleName)
 
 class User(models.Model):
+    
     # data fields for the models (attributes or columns of tables )
-    ID = models.IntegerField(primary_key=True , auto_created=True)
+    ID = models.AutoField(primary_key=True,auto_created=True)
     DateCreated = models.DateTimeField(auto_now_add=True)
-    UserID = models.UUIDField(unique=True, editable=False)
+    UserID = models.UUIDField(unique=True,help_text="Unique ID for the user",editable=False)
     Name = models.CharField(max_length=50 , help_text="Name of the user") 
     Email = models.EmailField(help_text="Email of the user")
     Password = models.CharField(help_text=" Password of the user") 
