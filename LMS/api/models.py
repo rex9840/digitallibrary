@@ -1,6 +1,6 @@
 from django.db import models
 import uuid
-
+from datetime import datetime
 
 
 class Role(models.Model):
@@ -17,9 +17,9 @@ class Role(models.Model):
 class User(models.Model):
     
     # data fields for the models (attributes or columns of tables )
-    ID = models.AutoField(primary_key=True,auto_created=True)
-    DateCreated = models.DateTimeField(auto_now_add=True)
-    UserID = models.UUIDField(unique=True,help_text="Unique ID for the user",editable=False)
+    ID = models.AutoField(primary_key=True,help_text="Auto Incremented ID for the user")
+    DateCreated = models.DateTimeField(auto_now_add=True,help_text="Date of creation of the user")
+    UserID = models.IntegerField(unique=True,help_text="Unique ID for the user",editable=False)
     Name = models.CharField(max_length=50 , help_text="Name of the user") 
     Email = models.EmailField(help_text="Email of the user")
     Password = models.CharField(help_text=" Password of the user") 
