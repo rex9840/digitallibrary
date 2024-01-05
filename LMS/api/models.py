@@ -17,9 +17,9 @@ class Role(models.Model):
 class User(models.Model):
     
     # data fields for the models (attributes or columns of tables )
-    ID = models.AutoField(primary_key=True,help_text="Auto Incremented ID for the user")
+    ID = models.IntegerField(primary_key=True,help_text="Auto Incremented ID for the user")
     DateCreated = models.DateTimeField(auto_now_add=True,help_text="Date of creation of the user")
-    UserID = models.IntegerField(unique=True,help_text="Unique ID for the user",editable=False)
+    UserID = models.IntegerField(help_text="Unique User ID assogned to user for ideentifiacations")
     Name = models.CharField(max_length=50 , help_text="Name of the user") 
     Email = models.EmailField(help_text="Email of the user")
     Password = models.CharField(help_text=" Password of the user") 
