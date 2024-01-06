@@ -1,6 +1,9 @@
 from django.db import models
 import uuid
 from datetime import datetime
+from api.Models import example
+
+
 
 
 class Role(models.Model):
@@ -12,8 +15,9 @@ class Role(models.Model):
         db_table_comment = "Role and Permissions Table"
     
     def __str__(self) -> str:
-        return str(self.RoleID) +"::" + str(self.RoleName)
-
+                #tabular strutue using sting
+        table = '{\t'+f'RoleID\t➡️{self.RoleID}|\tRoleName\t➡️{self.RoleName}|\tDescription|\t➡️:{self.Description}'+'\t}'
+        return table
 class User(models.Model):
     
     # data fields for the models (attributes or columns of tables )
@@ -32,10 +36,7 @@ class User(models.Model):
         ordering = ['DateCreated']
     
     def __str__(self) -> str:
-        return str(self.UserID) +"::" + str(self.Name) + "::" + str(self.Role_id)
-
-
-
+        return '{'+'\t'+f'ID\t➡️{self.ID}|\tUserID\t➡️{self.UserID}|\tName\t➡️{self.Name}|\tEmail\t➡️{self.Email}|\tRole_id\t➡️{self.Role_id.pk}'+'\t}'
 
 
 
