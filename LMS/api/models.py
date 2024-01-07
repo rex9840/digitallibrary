@@ -2,7 +2,7 @@ from django.db import models
 import uuid
 from datetime import datetime
 from api.Models import example
-
+from django.contrib import admin 
 
 
 
@@ -15,9 +15,7 @@ class Role(models.Model):
         db_table_comment = "Role and Permissions Table"
     
     def __str__(self) -> str:
-                #tabular strutue using sting
-        table = '{\t'+f'RoleID\t➡️{self.RoleID}|\tRoleName\t➡️{self.RoleName}|\tDescription|\t➡️:{self.Description}'+'\t}'
-        return table
+        return "{"+f"RoleID : {self.RoleID} | RoleName : {self.RoleName}" +"}"
 class User(models.Model):
     
     # data fields for the models (attributes or columns of tables )
@@ -35,8 +33,29 @@ class User(models.Model):
         db_table_comment = "Reegistered User  information Table"
         ordering = ['DateCreated']
     
+    def display_role(self):
+        return self.Role_id.RoleID 
+    display_role.short_description = 'RoleID'
+    
+    def display_Rolename(self):
+        return self.Role_id.RoleName
+    display_Rolename.short_description = 'RollName'
+    
+    def save(self, *args, **kwargs):
+        if not self.ID:
+            if User.objects.last() is None:
+                self.ID = 1
+            self.ID = User.objects.last().ID + 1
+        if not self.UserID:
+            date = datetime.now().date().__str__().replace('-', '')
+            uuid = date+"0"+str(self.ID)
+            self.UserID = int(uuid)
+ 
+        super(User, self).save(*args, **kwargs)
+
+
     def __str__(self) -> str:
-        return '{'+'\t'+f'ID\t➡️{self.ID}|\tUserID\t➡️{self.UserID}|\tName\t➡️{self.Name}|\tEmail\t➡️{self.Email}|\tRole_id\t➡️{self.Role_id.pk}'+'\t}'
+       return '{'+'\t'+f'ID\t➡️{self.ID}|\tUserID\t➡️{self.UserID}|\tName\t➡️{self.Name}|\tEmail\t➡️{self.Email}|\tRole_id\t➡️{self.Role_id.pk}'+'\t}'
 
 
 
