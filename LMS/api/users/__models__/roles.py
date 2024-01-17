@@ -11,4 +11,4 @@ class Role(models.Model):
         db_table_comment = "Role and Permissions Table"
     
     def __str__(self) -> str:
-        return "{"+f"RoleID : {self.RoleID} | RoleName : {self.RoleName}" +"}"
+        return f"RoleID : {self.RoleID} | RoleName : {self.RoleName}"
