@@ -3,14 +3,15 @@ from . import views
 from rest_framework import routers
 
 
-router = routers.DefaultRouter()
-router.register(r'users/add',views.UserAddView)
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
+
+router = routers.DefaultRouter()
+router.register(r'users/',views.RegisterView)
 urlpatterns = [
-    path(r'^users/', views.user_list),
-    path(r'^', include(router.urls)),
-    #    path('users/add/',views.UserlistView.as_view()),
-    path('users/<int:UserId>/',views.GetUser.as_view()),
+    path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('token/refresh/', TokenRefreshView.as_view(),name='token_refresh'),
+    path(r'', include(router.urls)),
 ]
 
 

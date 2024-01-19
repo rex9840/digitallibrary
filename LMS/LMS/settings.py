@@ -39,11 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api',
+    'corsheaders',
+    'rest_framework_simplejwt',
 ]
 
 
+
+CHORS_ORIGIN_ALLOW_ALL = True
+
+
 REST_FRAMEWORK = {
-        'DEFAULT_AUTHENTICATION_CLASSES ': ['rest_framework.authentication.TokenAuthentication']
+        'DEFAULT_AUTHENTICATION_CLASSES ': ['rest_framework-simplejwt.authentication.JWTAuthentication',],
 }
             
 
@@ -83,7 +89,7 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 
 
 
-#AUTH_USER_MODEL = ''
+AUTH_USER_MODEL = 'api.Users'
 
 
 # Database
