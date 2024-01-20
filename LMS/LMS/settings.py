@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-from pathlib import Path
-from django.conf import settings
 import os
+from pathlib import Path
+from django.conf import Settings
+from pydantic_settings import BaseSettings,SettingsConfigDict
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #custom apps import here 
     'rest_framework',
     'api',
     'corsheaders',
@@ -46,10 +48,10 @@ INSTALLED_APPS = [
 ]
 
 
-
+#CORS ALLOWED ORIGIN for api calls
 CHORS_ORIGIN_ALLOW_ALL = True
 
-
+#JWT AUTHENTICATION for rest framework
 REST_FRAMEWORK = {
         'DEFAULT_AUTHENTICATION_CLASSES ': ['rest_framework-simplejwt.authentication.JWTAuthentication',],
 }
@@ -90,9 +92,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'LMS.wsgi.application'
 
 
-
+#default user model
 AUTH_USER_MODEL = 'api.Users'
 
+#MEDIA URl config
 MEDIA_URL = '/api/'
 MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
 
@@ -100,18 +103,24 @@ MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+#load database config from .env file
+class Settings(BaseSettings):  
+    model_config = SettingsConfigDict(
+            env_file='.env',
+            env_file_encoding='utf-8'
+    )
+    DATABASE_ENGINE: str = ""
+    DATABASE_NAME: str= "" 
+    DATABASE_USER: str= "" 
+    DATABASE_PASSWORD: str = "" 
+    DATABASE_HOST: str = "" 
+    DATABASE_PORT: str = "" 
+
+config = Settings().model_dump()
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lms',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': config
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

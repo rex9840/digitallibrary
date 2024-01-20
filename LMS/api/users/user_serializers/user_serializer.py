@@ -1,8 +1,7 @@
 from rest_framework import serializers
 from datetime import datetime
-from api.users.models import Users
-import bcrypt
 from django.contrib.auth.hashers import make_password
+from api.users.models import Users
 
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
