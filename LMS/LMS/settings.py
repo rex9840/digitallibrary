@@ -10,10 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-import os
 from pathlib import Path
-from django.conf import Settings
-from pydantic_settings import BaseSettings,SettingsConfigDict
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -96,31 +94,29 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 AUTH_USER_MODEL = 'api.Users'
 
 #MEDIA URl config
-MEDIA_URL = '/api/'
-MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'image', 'upload', 'profile_Pic')
+MEDIA_URL = '/image/upload/profile_Pic/'
 
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 #load database config from .env file
-class Settings(BaseSettings):  
-    model_config = SettingsConfigDict(
-            env_file='.env',
-            env_file_encoding='utf-8'
-    )
-    DATABASE_ENGINE: str = ""
-    DATABASE_NAME: str= "" 
-    DATABASE_USER: str= "" 
-    DATABASE_PASSWORD: str = "" 
-    DATABASE_HOST: str = "" 
-    DATABASE_PORT: str = "" 
 
-config = Settings().model_dump()
 
 DATABASES = {
-    'default': config
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lms',
+        'USER': 'postgres',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
+        'PORT': '5432',
+
+    }
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

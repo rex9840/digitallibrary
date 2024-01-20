@@ -2,30 +2,35 @@
 from django.http.response import JsonResponse
 from rest_framework.parsers import JSONParser
 from rest_framework import status
-from rest_framework.decorators import action
-from rest_framework.views import csrf_exempt
-from django.shortcuts import get_object_or_404,render
-from rest_framework import viewsets
-from rest_framework.response import Response 
-
+from rest_framework.views import APIView
 from api.users.user_serializers.user_serializer import *
 from api.users.user_models.user_model import Users
+from rest_framework.renderers import TemplateHTMLRenderer
+from rest_framework import viewsets
+from django.shortcuts import get_object_or_404, redirect
+from rest_framework.decorators import action
 
 
-class RegisterView(viewsets.ModelViewSet): 
+class Users(viewsets.ModelViewSet):
     queryset = Users.objects.all()
-    serializer_class = RegisterSerializer
-    @action(detail=True, methods=['post'])
-    def register(self,request):
-        data_request = JSONParser().parse(request)
-        user_serializer = RegisterSerializer(data=data_request)
-        if user_serializer.is_valid():
-            user_serializer.save()
-            return JsonResponse(user_serializer.data, status=status.HTTP_201_CREATED)
-        return JsonResponse(user_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    def get_serializer_class(self):
+        if self.request.method == 'GET':
+            return UserSerializer
+        elif self.request.method == 'POST':
+            return RegisterSerializer
+    
+    @action(detail=True, methods=['GET'])
+    def user_list(self, request):
+        queryset = Users.objects.all()
+        serializer = UserSerializer(queryset, many=True)
+        return JsonResponse(serializer.data, safe=False)
 
-
-
-
-
+    @action(detail=True, methods=['POST'])
+    def user_create(self, request, pk=None):
+        serializer = RegisterSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
 

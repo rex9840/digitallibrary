@@ -1,8 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 from datetime import datetime
-
-from django.db.models.query_utils import tree
+import os
 
 class UserManager(BaseUserManager):
     
@@ -35,6 +34,7 @@ class UserManager(BaseUserManager):
             phone_number = phone_number, 
             school_id = school_id,
             is_teacher = is_teacher,
+            is_active = True,
         )
         user.set_password(password)
         user.save(using=self._db)
@@ -65,35 +65,46 @@ class Users(AbstractBaseUser):
         super().__init__(*args, **kwargs) 
         self.id_instance = 0
 
-    ID= models.IntegerField(primary_key=True)
+    def get_profile_pic_filename(self,filename): 
+        folder_path = str(self.school_id)
+        return os.path.join(folder_path,filename) 
+
+    ID= models.IntegerField()
+    password = models.CharField(verbose_name="password")
     date_joined = models.DateTimeField(verbose_name="date joined",auto_now_add=True)
     last_login = models.DateTimeField(verbose_name="last login",auto_now=True)
-    email = models.EmailField(verbose_name="email",max_length=60,unique=True)
+    email = models.EmailField(verbose_name="email",unique=True)
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()
     address = models.CharField(max_length=100)
-    phone_number = models.CharField(max_length=10)
-    school_id = models.IntegerField(unique=True)
+    phone_number = models.IntegerField()
+    school_id = models.IntegerField(primary_key=True)
     is_teacher = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
-    profile_pic = models.ImageField(upload_to='image/upload/profile_Pic/%y%m%d/',null=True,blank=True)
+    profile_pic = models.ImageField(upload_to=get_profile_pic_filename,blank=True)
 
 
     USERNAME_FIELD = 'school_id'
     REQUIRED_FIELDS = ['email','first_name','last_name','age','address','phone_number','password']
+    PASSWORD_FIELD = 'password'
 
     def __str__(self):
-        return f"name -> {self.first_name} {self.last_name} | email -> {self.email} |  school_id -> {self.school_id} |  is_teacher -> {self.is_teacher}"
+       full_name =  f'{self.first_name}' +" " + f'{self.last_name}'
+       if self.is_admin:
+           return full_name + " (Admin)"
+       if self.is_teacher:
+           return full_name + " (Teacher)"
+       return full_name + " (Student)"
 
     objects = UserManager()
 
     class Meta:
-        db_table = "api_users"
+        db_table = 'users'
         verbose_name = 'users'
-        ordering = ['ID']
+        ordering = ['date_joined']
 
     def has_perm(self,perm,obj=None):
         return self.is_admin
@@ -106,9 +117,9 @@ class Users(AbstractBaseUser):
             self.id_instance = Users.objects.last().ID
         self.id_instance += 1
         return self.id_instance
-    
-    def save(self, *args, **kwargs):
+
+    def save(self,*args,**kwargs):
         if not self.ID:
             self.ID = self.id_count()
         self.set_password(self.password)
-        super(Users,self).save(*args, **kwargs)
+        super().save(*args,**kwargs)   

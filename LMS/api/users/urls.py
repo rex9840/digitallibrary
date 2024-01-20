@@ -1,5 +1,7 @@
 
 from django.urls import path, include
+
+from LMS.settings import BASE_DIR
 from . import views
 from rest_framework import routers
 
@@ -10,17 +12,19 @@ from django.conf.urls.static import static
 
 
 router = routers.DefaultRouter()
-router.register(r'register',views.RegisterView, basename='register')
-
+router.register('users', views.Users, basename='users')
 
 
 urlpatterns = [
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(),name='token_refresh'),
-    path(r'users/', include(router.urls)),
+
 ]
 
+urlpatterns += router.urls
+
+
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
