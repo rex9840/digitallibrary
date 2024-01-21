@@ -18,5 +18,3 @@ class RegisterSerializer(serializers.ModelSerializer):
         model = Users
         exclude = ['ID']
 
-    def create(self, validated_data):
-        return super().create(validated_data)

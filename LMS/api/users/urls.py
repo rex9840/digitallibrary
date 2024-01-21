@@ -12,16 +12,16 @@ from django.conf.urls.static import static
 
 
 router = routers.DefaultRouter()
-router.register('users', views.Users, basename='users')
+router.register('details', views.UserView,'details')
+router.register('create', views.UsersCreate,'create')
 
 
 urlpatterns = [
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('token/refresh/', TokenRefreshView.as_view(),name='token_refresh'),
-
+    path('users/', include(router.urls)),
 ]
 
-urlpatterns += router.urls
 
 
 if settings.DEBUG:

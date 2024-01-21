@@ -67,7 +67,7 @@ class Users(AbstractBaseUser):
 
     def get_profile_pic_filename(self,filename): 
         folder_path = str(self.school_id)
-        return os.path.join(folder_path,filename) 
+        return os.path.join(folder_path,filename)
 
     ID= models.IntegerField()
     password = models.CharField(verbose_name="password")
@@ -90,6 +90,11 @@ class Users(AbstractBaseUser):
     USERNAME_FIELD = 'school_id'
     REQUIRED_FIELDS = ['email','first_name','last_name','age','address','phone_number','password']
     PASSWORD_FIELD = 'password'
+    
+    @property
+    def id(self): 
+        return self.school_id
+
 
     def __str__(self):
        full_name =  f'{self.first_name}' +" " + f'{self.last_name}'
