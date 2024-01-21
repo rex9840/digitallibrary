@@ -13,16 +13,14 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 class UsersCreate(viewsets.ModelViewSet):
     queryset = Users.objects.all()
     serializer_class = RegisterSerializer
-    
+    http_method_names = ['post','get']
+
     def get_permissions(self):
         if self.request.method == 'POST':
-            self.permission_classes = [AllowAny]
+            return  [AllowAny()]
         else:
-            self.permission_classes = [IsAuthenticated]
-
-        return super(self.__class__, self).get_permissions()
+            return [IsAuthenticated()]
         
-
 
 
     def create(self, request):
@@ -33,11 +31,13 @@ class UsersCreate(viewsets.ModelViewSet):
         return JsonResponse(serializer.errors, status=400)
     
 
+
 class UserView(viewsets.ModelViewSet):
     queryset = Users.objects.all()
     serializer_class = UserSerializer
     permission_classes = [IsAuthenticated]
-    
+
+    http_method_names = ['get','put','delete','patch']
     def list(self, request):
         serializer = UserSerializer(self.queryset, many=True)
         return JsonResponse(serializer.data,status=200,safe=False)
