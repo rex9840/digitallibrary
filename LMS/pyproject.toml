@@ -19,6 +19,7 @@ django-allauth = "^0.60.1"
 pydantic = "^2.5.3"
 pydantic-settings = "^2.1.0"
 python-dotenv = "^1.0.0"
+django-environ = "^0.11.2"
 
 
 [build-system]

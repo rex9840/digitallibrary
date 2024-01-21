@@ -1,22 +1,12 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
-from datetime import datetime
 import os
 
+from django.db.models.fields import is_iterable
+
 class UserManager(BaseUserManager):
-    
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs) 
-        self.id_instance = 0
 
-    def id_count(self):
-        if Users.objects.last():
-            self.id_instance = Users.objects.last().ID
-        self.id_instance += 1
-        return self.id_instance
-
-
-    def create_user(self,email,first_name,last_name,age,address,phone_number,school_id,is_teacher:bool=False,password=None): 
+    def create_user(self,email,first_name,last_name,age,address,phone_number,school_id,password=None,is_teacher=False):
         if  not email: 
             raise ValueError("User must have an email address")
         if not phone_number:
@@ -25,7 +15,6 @@ class UserManager(BaseUserManager):
             raise ValueError("User must have a school id")
 
         user = self.model(
-            ID = self.id_count(),
             email = self.normalize_email(email),
             first_name = first_name, 
             last_name = last_name, 
@@ -33,25 +22,24 @@ class UserManager(BaseUserManager):
             address = address, 
             phone_number = phone_number, 
             school_id = school_id,
-            is_teacher = is_teacher,
             is_active = True,
         )
-        user.set_password(password)
+        user.password = password
         user.save(using=self._db)
         return user
 
 
-    def create_superuser(self,email,first_name,last_name,age,address,phone_number,school_id,password=None): 
+    def create_superuser(self,email,first_name,last_name,age,address,phone_number,school_id,password):
         user = self.create_user(
+            school_id = school_id,
             email = self.normalize_email(email),
             first_name = first_name, 
             last_name = last_name, 
             age = age, 
             address = address, 
-            phone_number = phone_number, 
-            school_id = school_id,
+            phone_number = phone_number,
         )
-        user.set_password(password)
+        user.password = password
         user.is_admin = True
         user.is_staff = True
         user.is_superuser = True
@@ -68,8 +56,8 @@ class Users(AbstractBaseUser):
     def get_profile_pic_filename(self,filename): 
         folder_path = str(self.school_id)
         return os.path.join(folder_path,filename)
-
-    ID= models.IntegerField()
+    
+    id= models.IntegerField()
     password = models.CharField(verbose_name="password")
     date_joined = models.DateTimeField(verbose_name="date joined",auto_now_add=True)
     last_login = models.DateTimeField(verbose_name="last login",auto_now=True)
@@ -84,16 +72,15 @@ class Users(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
-    profile_pic = models.ImageField(upload_to=get_profile_pic_filename,blank=True)
+    profile_pic = models.ImageField(upload_to=get_profile_pic_filename,default='/default/Default-Profile-Picture-Transparent-Image.png')
+    
 
 
     USERNAME_FIELD = 'school_id'
     REQUIRED_FIELDS = ['email','first_name','last_name','age','address','phone_number','password']
     PASSWORD_FIELD = 'password'
     
-    @property
-    def id(self): 
-        return self.school_id
+    
 
 
     def __str__(self):
@@ -119,12 +106,14 @@ class Users(AbstractBaseUser):
 
     def id_count(self):
         if Users.objects.last():
-            self.id_instance = Users.objects.last().ID
+            self.id_instance = Users.objects.last().id
         self.id_instance += 1
         return self.id_instance
 
     def save(self,*args,**kwargs):
-        if not self.ID:
-            self.ID = self.id_count()
+        if not self.id:
+            self.id = self.id_count()
         self.set_password(self.password)
+        if self.is_admin:
+            self.is_staff = True 
         super().save(*args,**kwargs)   

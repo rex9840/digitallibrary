@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -51,7 +52,11 @@ CHORS_ORIGIN_ALLOW_ALL = True
 
 #JWT AUTHENTICATION for rest framework
 REST_FRAMEWORK = {
-        'DEFAULT_AUTHENTICATION_CLASSES ': ['rest_framework-simplejwt.authentication.JWTAuthentication',],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+     
+    ],
 }
             
 
@@ -103,16 +108,19 @@ MEDIA_URL = '/image/upload/profile_Pic/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 #load database config from .env file
+env = environ.Env()
+env.read_env()
+
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'lms',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': env('DATABASE_NAME'),
+        'USER' : env('DATABASE_USER'), 
+        'PASSWORD' : env('DATABASE_PASSWORD'), 
+        'HOST' : env('DATABASE_HOST'), 
+        'PORT' : env('DATABASE_PORT'), 
 
     }
 }
