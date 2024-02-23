@@ -6,13 +6,11 @@ from django.db.models.fields import is_iterable
 
 class UserManager(BaseUserManager):
 
-    def create_user(self,email,first_name,last_name,age,address,phone_number,school_id,password=None,is_teacher=False):
+    def create_user(self,email,first_name,last_name,age,address,phone_number,password=None,is_teacher=False):
         if  not email: 
             raise ValueError("User must have an email address")
         if not phone_number:
             raise ValueError("User must have a phone number")
-        if not school_id:
-            raise ValueError("User must have a school id")
 
         user = self.model(
             email = self.normalize_email(email),
@@ -21,7 +19,6 @@ class UserManager(BaseUserManager):
             age = age, 
             address = address, 
             phone_number = phone_number, 
-            school_id = school_id,
             is_active = True,
         )
         user.password = password
@@ -29,10 +26,9 @@ class UserManager(BaseUserManager):
         return user
 
 
-    def create_superuser(self,email,first_name,last_name,age,address,phone_number,school_id,password):
+    def create_superuser(self,email,first_name,last_name,age,address,phone_number,password):
         user = self.create_user(
-            school_id = school_id,
-            email = self.normalize_email(email),
+            email = email,
             first_name = first_name, 
             last_name = last_name, 
             age = age, 
@@ -54,20 +50,19 @@ class Users(AbstractBaseUser):
         self.id_instance = 0
 
     def get_profile_pic_filename(self,filename): 
-        folder_path = str(self.school_id)
+        folder_path = str(self.id)
         return os.path.join(folder_path,filename)
     
-    id= models.IntegerField()
+    id= models.IntegerField(primary_key=True)
     password = models.CharField(verbose_name="password")
     date_joined = models.DateTimeField(verbose_name="date joined",auto_now_add=True)
     last_login = models.DateTimeField(verbose_name="last login",auto_now=True)
-    email = models.EmailField(verbose_name="email",unique=True)
+    email = models.EmailField(verbose_name="email",unique=True) 
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()
     address = models.CharField(max_length=100)
     phone_number = models.IntegerField()
-    school_id = models.IntegerField(primary_key=True)
     is_teacher = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
@@ -76,11 +71,9 @@ class Users(AbstractBaseUser):
     
 
 
-    USERNAME_FIELD = 'school_id'
-    REQUIRED_FIELDS = ['email','first_name','last_name','age','address','phone_number','password']
+    USERNAME_FIELD = 'email'
+    REQUIRED_FIELDS = ['first_name','last_name','age','address','phone_number','password']
     PASSWORD_FIELD = 'password'
-    
-    
 
 
     def __str__(self):

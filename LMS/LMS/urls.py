@@ -38,7 +38,4 @@ urlpatterns += [
     path('', RedirectView.as_view(url='api/', permanent=True)),
 ]
 
-
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
