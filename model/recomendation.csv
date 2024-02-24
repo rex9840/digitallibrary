@@ -1,0 +1,1014 @@
+id, location, age, rating, course_title, course_id, course_teacher, year_of_initiation
+1, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+2, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+3, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+4, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+5, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+6, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+7, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+8, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+9, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+10, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+11, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+12, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+13, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+14, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+15, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+16, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+17, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+18, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+19, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+20, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+21, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+22, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+23, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+24, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+25, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+26, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+27, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+28, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+29, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+30, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+31, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+32, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+33, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+34, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+35, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+36, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+37, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+38, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+39, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+40, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+41, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+42, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+43, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+44, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+45, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+46, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+47, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+48, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+49, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+50, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+51, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+52, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+53, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+54, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+55, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+56, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+57, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+58, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+59, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+60, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+61, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+62, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+63, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+64, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+65, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+66, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+67, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+68, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+69, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+70, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+71, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+72, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+73, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+74, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+75, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+76, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+77, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+78, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+79, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+80, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+81, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+82, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+83, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+84, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+85, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+86, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+87, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+88, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+89, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+90, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+91, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+92, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+93, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+94, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+95, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+96, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+97, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+98, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+99, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+100, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+101, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+102, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+103, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+104, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+105, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+106, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+107, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+108, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+109, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+110, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+111, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+112, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+113, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+114, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+115, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+116, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+117, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+118, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+119, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+120, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+121, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+122, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+123, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+124, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+125, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+126, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+127, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+128, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+129, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+130, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+131, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+132, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+133, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+134, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+135, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+136, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+137, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+138, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+139, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+140, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+141, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+142, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+143, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+144, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+145, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+146, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+147, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+148, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+149, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+150, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+151, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+152, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+153, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+154, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+155, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+156, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+157, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+158, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+159, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+160, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+161, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+162, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+163, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+164, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+165, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+166, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+167, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+168, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+169, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+170, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+171, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+172, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+173, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+174, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+175, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+176, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+177, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+178, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+179, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+180, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+181, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+182, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+183, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+184, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+185, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+186, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+187, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+188, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+189, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+190, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+191, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+192, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+193, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+194, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+195, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+196, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+197, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+198, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+199, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+200, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+201, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+202, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+203, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+204, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+205, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+206, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+207, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+208, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+209, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+210, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+211, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+212, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+213, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+214, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+215, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+216, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+217, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+218, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+219, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+220, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+221, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+222, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+223, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+224, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+225, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+226, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+227, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+228, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+229, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+230, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+231, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+232, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+233, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+234, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+235, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+236, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+237, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+238, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+239, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+240, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+241, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+242, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+243, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+244, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+245, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+246, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+247, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+248, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+249, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+250, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+251, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+252, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+253, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+254, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+255, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+256, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+257, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+258, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+259, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+260, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+261, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+262, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+263, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+264, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+265, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+266, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+267, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+268, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+269, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+270, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+271, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+272, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+273, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+274, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+275, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+276, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+277, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+278, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+279, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+280, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+281, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+282, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+283, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+284, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+285, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+286, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+287, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+288, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+289, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+290, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+291, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+292, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+293, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+294, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+295, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+296, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+297, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+298, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+299, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+300, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+301, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+302, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+303, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+304, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+305, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+306, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+307, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+308, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+309, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+310, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+311, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+312, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+313, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+314, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+315, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+316, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+317, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+318, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+319, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+320, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+321, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+322, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+323, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+324, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+325, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+326, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+327, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+328, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+329, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+330, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+331, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+332, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+333, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+334, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+335, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+336, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+337, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+338, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+339, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+340, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+341, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+342, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+343, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+344, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+345, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+346, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+347, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+348, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+349, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+350, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+351, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+352, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+353, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+354, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+355, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+356, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+357, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+358, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+359, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+360, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+361, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+362, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+363, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+364, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+365, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+366, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+367, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+368, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+369, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+370, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+371, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+372, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+373, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+374, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+375, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+376, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+377, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+378, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+379, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+380, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+381, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+382, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+383, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+384, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+385, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+386, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+387, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+388, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+389, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+390, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+391, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+392, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+393, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+394, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+395, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+396, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+397, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+398, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+399, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+400, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+401, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+402, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+403, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+404, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+405, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+406, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+407, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+408, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+409, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+410, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+411, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+412, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+413, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+414, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+415, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+416, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+417, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+418, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+419, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+420, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+421, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+422, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+423, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+424, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+425, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+426, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+427, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+428, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+429, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+430, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+431, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+432, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+433, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+434, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+435, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+436, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+437, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+438, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+439, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+440, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+441, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+442, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+443, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+444, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+445, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+446, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+447, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+448, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+449, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+450, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+451, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+452, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+453, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+454, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+455, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+456, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+457, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+458, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+459, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+460, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+461, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+462, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+463, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+464, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+465, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+466, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+467, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+468, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+469, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+470, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+471, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+472, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+473, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+474, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+475, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+476, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+477, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+478, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+479, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+480, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+481, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+482, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+483, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+484, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+485, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+486, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+487, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+488, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+489, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+490, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+491, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+492, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+493, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+494, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+495, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+496, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+497, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+498, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+499, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+500, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+501, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+502, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+503, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+504, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+505, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+506, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+507, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+508, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+509, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+510, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+511, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+512, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+513, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+514, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+515, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+516, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+517, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+518, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+519, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+520, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+521, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+522, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+523, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+524, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+525, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+526, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+527, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+528, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+529, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+530, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+531, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+532, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+533, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+534, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+535, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+536, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+537, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+538, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+539, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+540, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+541, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+542, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+543, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+544, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+545, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+546, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+547, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+548, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+549, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+550, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+551, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+552, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+553, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+554, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+555, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+556, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+557, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+558, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+559, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+560, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+561, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+562, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+563, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+564, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+565, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+566, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+567, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+568, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+569, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+570, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+571, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+572, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+573, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+574, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+575, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+576, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+577, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+578, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+579, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+580, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+581, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+582, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+583, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+584, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+585, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+586, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+587, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+588, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+589, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+590, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+591, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+592, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+593, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+594, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+595, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+596, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+597, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+598, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+599, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+600, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+601, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+602, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+603, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+604, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+605, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+606, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+607, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+608, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+609, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+610, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+611, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+612, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+613, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+614, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+615, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+616, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+617, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+618, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+619, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+620, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+621, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+622, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+623, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+624, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+625, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+626, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+627, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+628, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+629, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+630, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+631, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+632, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+633, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+634, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+635, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+636, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+637, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+638, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+639, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+640, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+641, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+642, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+643, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+644, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+645, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+646, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+647, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+648, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+649, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+650, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+651, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+652, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+653, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+654, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+655, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+656, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+657, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+658, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+659, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+660, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+661, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+662, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+663, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+664, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+665, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+666, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+667, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+668, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+669, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+670, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+671, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+672, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+673, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+674, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+675, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+676, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+677, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+678, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+679, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+680, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+681, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+682, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+683, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+684, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+685, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+686, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+687, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+688, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+689, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+690, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+691, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+692, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+693, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+694, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+695, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+696, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+697, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+698, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+699, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+700, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+701, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+702, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+703, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+704, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+705, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+706, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+707, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+708, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+709, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+710, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+711, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+712, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+713, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+714, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+715, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+716, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+717, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+718, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+719, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+720, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+721, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+722, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+723, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+724, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+725, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+726, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+727, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+728, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+729, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+730, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+731, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+732, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+733, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+734, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+735, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+736, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+737, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+738, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+739, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+740, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+741, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+742, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+743, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+744, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+745, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+746, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+747, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+748, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+749, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+750, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+751, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+752, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+753, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+754, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+755, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+756, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+757, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+758, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+759, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+760, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+761, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+762, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+763, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+764, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+765, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+766, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+767, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+768, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+769, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+770, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+771, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+772, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+773, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+774, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+775, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+776, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+777, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+778, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+779, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+780, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+781, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+782, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+783, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+784, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+785, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+786, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+787, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+788, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+789, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+790, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+791, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+792, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+793, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+794, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+795, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+796, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+797, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+798, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+799, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+800, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+801, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+802, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+803, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+804, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+805, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+806, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+807, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+808, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+809, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+810, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+811, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+812, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+813, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+814, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+815, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+816, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+817, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+818, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+819, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+820, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+821, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+822, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+823, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+824, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+825, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+826, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+827, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+828, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+829, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+830, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+831, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+832, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+833, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+834, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+835, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+836, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+837, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+838, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+839, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+840, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+841, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+842, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+843, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+844, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+845, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+846, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+847, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+848, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+849, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+850, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+851, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+852, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+853, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+854, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+855, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+856, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+857, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+858, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+859, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+860, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+861, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+862, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+863, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+864, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+865, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+866, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+867, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+868, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+869, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+870, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+871, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+872, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+873, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+874, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+875, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+876, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+877, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+878, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+879, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+880, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+881, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+882, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+883, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+884, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+885, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+886, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+887, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+888, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+889, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+890, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+891, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+892, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+893, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+894, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+895, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+896, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+897, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+898, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+899, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+900, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+901, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+902, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+903, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+904, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+905, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+906, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+907, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+908, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+909, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+910, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+911, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+912, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+913, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+914, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+915, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+916, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+917, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+918, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+919, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+920, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+921, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+922, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+923, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+924, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+925, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+926, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+927, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+928, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+929, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+930, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+931, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+932, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+933, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+934, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+935, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+936, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+937, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+938, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+939, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+940, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+941, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+942, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+943, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+944, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+945, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+946, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+947, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+948, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+949, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+950, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+951, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+952, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+953, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+954, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+955, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+956, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+957, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+958, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+959, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+960, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+961, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+962, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+963, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+964, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+965, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+966, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+967, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+968, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+969, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+970, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
+971, Bhaktapur, 35, 4.4, Introduction to Blockchain, BC101, Dr. Shah, 2023
+972, Biratnagar, 19, 4.7, Introduction to Cloud Computing, CC201, Prof. Basnet, 2021
+973, Lalitpur, 21, 4.5, Data Mining Techniques, DM301, Dr. Tamang, 2022
+974, Bhaktapur, 27, 4.2, Internet of Things Fundamentals, IoT401, Prof. Thapa, 2023
+975, Kathmandu, 36, 4.8, Software Engineering Principles, SE501, Dr. Lama, 2021
+976, Kathmandu, 37, 4.3, Big Data Analytics, BDA601, Prof. Gurung, 2022
+977, Pokhara, 31, 4.6, Cloud Security Fundamentals, CSF701, Dr. Thapa, 2023
+978, Bhaktapur, 38, 4.0, DevOps Essentials, DO901, Prof. Bhattarai, 2021
+979, Biratnagar, 33, 4.5, UX/UI Design Principles, UXD101, Dr. Subedi, 2022
+980, Lalitpur, 20, 4.2, Agile Methodologies, AM201, Prof. Gautam, 2023
+981, Bhaktapur, 25, 4.7, Data Warehousing Concepts, DWC301, Dr. Khadka, 2021
+982, Kathmandu, 28, 4.9, Ethical Hacking Techniques, EHT401, Prof. Shrestha, 2022
+983, Pokhara, 34, 4.4, Mobile App Development, MAD501, Dr. Joshi, 2023
+984, Lalitpur, 39, 4.8, Quantum Computing Fundamentals, QCF601, Prof. Acharya, 2021
+985, Kathmandu, 16, 4.3, Robotics and Automation, RA701, Dr. Shah, 2022
+986, Biratnagar, 24, 4.6, Introduction to 5G Technology, 5GT801, Prof. Basnet, 2023
+987, Lalitpur, 29, 4.1, Game Development Basics, GDB901, Dr. Tamang, 2021
+988, Bhaktapur, 31, 4.7, Virtual Reality Fundamentals, VRF101, Prof. Thapa, 2022
+989, Kathmandu, 20, 4.5, Cryptocurrency Fundamentals, CF201, Dr. Lama, 2023
+990, Kathmandu, 22, 4.2, Network Security Principles, NSP301, Prof. Gurung, 2021
+991, Pokhara, 37, 4.9, Augmented Reality Applications, ARA401, Dr. Thapa, 2022
+992, Bhaktapur, 38, 4.4, Data Science Capstone Project, DSC501, Prof. Bhattarai, 2023
+993, Biratnagar, 19, 4.7, Cloud-Native Architecture, CNA601, Dr. Subedi, 2021
+994, Lalitpur, 23, 4.3, Database Management Systems, DBMS701, Prof. Gautam, 2022
+995, Bhaktapur, 25, 4.8, Parallel Computing Concepts, PCC901, Dr. Khadka, 2023
+996, Kathmandu, 37, 4.0, Introduction to Quantum Cryptography, QC101, Prof. Shrestha, 2021
+997, Kathmandu, 38, 4.5, Artificial Intelligence for Healthcare, AIH201, Dr. Joshi, 2022
+998, Pokhara, 18, 4.9, Data Privacy and Security, DPS301, Prof. Acharya, 2023
+999, Bhaktapur, 26, 4.4, Cloud-Native Development, CND401, Dr. Shah, 2021
+1000, Biratnagar, 30, 4.7, Embedded Systems Design, ESD501, Prof. Basnet, 2022
+1001, Lalitpur, 35, 4.2, Quantum Machine Learning, QML601, Dr. Tamang, 2023
+1002, Bhaktapur, 32, 4.6, Human-Computer Interaction, HCI701, Prof. Thapa, 2021
+1003, Kathmandu, 22, 4.3, Cyber-Physical Systems, CPS901, Dr. Lama, 2022
+1004, Kathmandu, 18, 4.2, Introduction to Data Science, DS101, Dr. Lama, 2023
+1005, Kathmandu, 23, 4.5, Python Programming for Beginners, PY201, Prof. Gurung, 2022
+1006, Pokhara, 28, 4.7, Data Analysis with Python, DA301, Dr. Thapa, 2021
+1007, Nepalgunj, 32, 4.0, Machine Learning Applications, ML401, Prof. Bhattarai, 2022
+1008, Biratnagar, 24, 4.8, Web Development with JavaScript, WD501, Dr. Subedi, 2023
+1009, Lalitpur, 26, 4.6, Introduction to Cybersecurity, CS601, Prof. Gautam, 2021
+1010, Bhaktapur, 29, 4.3, Deep Learning Fundamentals, DL701, Dr. Khadka, 2022
+1011, Kathmandu, 17, 4.6, Artificial Intelligence Ethics, AI801, Prof. Shrestha, 2023
+1012, Kathmandu, 22, 4.1, Natural Language Processing, NLP901, Dr. Joshi, 2021
+1013, Pokhara, 30, 4.9, Computer Vision Basics, CV1001, Prof. Acharya, 2022
