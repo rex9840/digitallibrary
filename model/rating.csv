@@ -1,12 +1,112 @@
-course_id,course_name,tags,lectures,length,rating,subscribed_members
-CS601,Introduction to Computer Science,"Programming,Computer Science,Algorithms",30,45,4.2,5000
-CND401,Computer Networking Fundamentals,"Networking,Computer Networks,Internet",25,40,4.0,3800
-WD501,Web Development Basics,"Web Development,HTML,CSS,JavaScript,Frontend,Backend",20,35,4.5,6000
-DL701,Deep Learning Fundamentals,"Machine Learning,Deep Learning,Neural Networks,Artificial Intelligence",40,60,4.3,8000
-CSF701,Computer Security Fundamentals,"Cybersecurity,Security,Encryption,Data Protection",35,50,4.1,4500
-NLP901,Natural Language Processing,"NLP,Text Processing,Language Understanding,Machine Translation",45,70,4.6,7000
-DBMS701,Database Management Systems,"Databases,SQL,NoSQL,Relational Databases,Database Design",30,45,4.4,5500
-RA701,Robotics and Automation,"Robotics,Automation,Machine Vision,Control Systems",35,55,4.2,4800
-QC101,Quantum Computing Basics,"Quantum Computing,Quantum Mechanics,Quantum Algorithms,Quantum Cryptography",25,40,4.3,3500
-MAD501,Mobile App Development,"App Development,Android,iOS,React Native,Mobile UI/UX",40,50,4.7,9000
-EHT401,Ethical Hacking Techniques,"Cybersecurity,Hacking,Ethical Hacking,Penetration Testing,Network Security",30,45,4.5,5200
+course_id,course_name,tags,lectures_min,rating,subscribed_members
+CS601,Introduction to Computer Science,"Programming,Computer Science,Algorithms",30,4.2,5000
+CND401,Computer Networking Fundamentals,"Networking,Computer Networks,Internet",25,4,3800
+WD501,Web Development Basics,"Web Development,HTML,CSS,JavaScript,Frontend,Backend",20,4.5,6000
+DL701,Deep Learning Fundamentals,"Machine Learning,Deep Learning,Neural Networks,Artificial Intelligence",40,4.3,8000
+CSF701,Computer Security Fundamentals,"Cybersecurity,Security,Encryption,Data Protection",35,4.1,4500
+NLP901,Natural Language Processing,"NLP,Text Processing,Language Understanding,Machine Translation",45,4.6,7000
+DBMS701,Database Management Systems,"Databases,SQL,NoSQL,Relational Databases,Database Design",30,4.4,5500
+RA701,Robotics and Automation,"Robotics,Automation,Machine Vision,Control Systems",35,4.2,4800
+QC101,Quantum Computing Basics,"Quantum Computing,Quantum Mechanics,Quantum Algorithms,Quantum Cryptography",25,4.3,3500
+MAD501,Mobile App Development,"App Development,Android,iOS,React Native,Mobile UI/UX",40,4.7,9000
+EHT401,Ethical Hacking Techniques,"Cybersecurity,Hacking,Ethical Hacking,Penetration Testing,Network Security",30,4.5,5200
+CS602,Advanced Computer Science,"Advanced Programming,Data Structures,Algorithms",40,4.4,6200
+CND402,Advanced Computer Networking,"Advanced Networking,Wireless Networks,Network Security",35,4.2,4100
+WD502,Advanced Web Development,"Advanced Web Design,React,Node.js,Angular",45,4.6,7300
+DL702,Advanced Deep Learning,"Advanced Machine Learning,Deep Neural Networks,Generative Models",50,4.5,8500
+CSF702,Advanced Computer Security,"Advanced Cybersecurity,Information Security,Cryptography",40,4.3,5800
+NLP902,Advanced Natural Language Processing,"Advanced NLP,Machine Translation,Text Generation",55,4.8,7200
+DBMS702,Advanced Database Management Systems,"Advanced SQL,Database Administration,Data Warehousing",40,4.6,6100
+RA702,Advanced Robotics and Automation,"Advanced Robotics,Swarm Robotics,Human-Robot Interaction",45,4.4,5400
+QC102,Advanced Quantum Computing,"Quantum Algorithms,Quantum Computing Applications",35,4.7,3800
+MAD502,Advanced Mobile App Development,"iOS App Development,Android App Development,Flutter",50,4.9,9500
+EHT402,Advanced Ethical Hacking,"Advanced Penetration Testing,Red Team Operations,Web Application Security",40,4.7,5600
+CS603,Data Structures and Algorithms,"Data Structures,Algorithms,Problem Solving",35,4.5,6700
+CND403,Network Security,"Cybersecurity,Firewalls,Intrusion Detection Systems",30,4.2,4400
+WD503,Full Stack Web Development,"Full Stack Development,Frontend,Backend,Databases",50,4.6,7800
+DL703,Machine Learning,"Supervised Learning,Unsupervised Learning,Reinforcement Learning",60,4.4,9000
+CSF703,Information Security,"Information Assurance,Risk Management,Security Policies",45,4.3,6300
+NLP903,Text Analytics,"Text Mining,Sentiment Analysis,Named Entity Recognition",50,4.7,7600
+DBMS703,Data Warehousing and Business Intelligence,"ETL Processes,Data Modeling,OLAP",45,4.5,6800
+RA703,Humanoid Robotics,"Humanoid Robot Design,Human-Robot Interaction,Robotics Applications",50,4.4,5900
+QC103,Quantum Cryptography,"Quantum Key Distribution,Post-Quantum Cryptography",40,4.8,4200
+MAD503,Cross-Platform Mobile App Development,"Cross-Platform Development,Mobile App Design",60,4.9,9800
+EHT403,Network Security Management,"Network Security Policies,Incident Response,Forensics",45,4.8,5900
+CS604,Operating Systems,"Memory Management,Process Scheduling,File Systems",40,4.6,7200
+CND404,Cloud Networking,"Cloud Computing,Virtualization,Cloud Security",35,4.3,4600
+WD504,Responsive Web Design,"Responsive UI Design,Mobile-First Development",30,4.1,4900
+DL704,Deep Reinforcement Learning,"Markov Decision Processes,Q-Learning,Policy Gradients",70,4.7,8200
+CSF704,Cyber Threat Intelligence,"Threat Detection,Threat Analysis,Security Incident Response",50,4.5,6400
+NLP904,Machine Translation,"Neural Machine Translation,Statistical Machine Translation",55,4.8,7800
+DBMS704,NoSQL Databases,"Document Databases,Graph Databases,Key-Value Stores",50,4.6,6700
+RA704,Autonomous Vehicles,"Self-Driving Cars,Autonomous Navigation,Vehicle Control Systems",60,4.5,6000
+QC104,Quantum Algorithms,"Quantum Computing Algorithms,Quantum Complexity Theory",45,4.9,4500
+MAD504,Progressive Web Apps,"Service Workers,Web App Manifests,Offline Support",55,4.9,10100
+EHT404,Mobile Security,"Mobile Device Management,Mobile Threat Defense",50,4.8,6200
+CS605,Computer Graphics,"Rendering Techniques,Computer Animation,3D Modeling",45,4.7,7500
+CND405,Wireless Networks,"Wi-Fi Networks,Cellular Networks,Wireless Security",40,4.4,4900
+WD505,Modern Web Frameworks,"React,Angular,Vue.js",35,4.2,5300
+DL705,Generative Adversarial Networks,"GANs,Deep Generative Models,Conditional GANs",80,4.8,8600
+CSF705,Data Privacy and Compliance,"GDPR,CCPA,Data Protection Regulations",55,4.6,6900
+NLP905,Information Retrieval,"Search Engines,Information Extraction,Text Indexing",60,4.9,8000
+DBMS705,Blockchain and Databases,"Blockchain Technology,Distributed Ledger,DApps",55,4.7,6900
+RA705,Human-Robot Collaboration,"Collaborative Robotics,Task Allocation,Robot-Human Interaction",60,4.6,6100
+QC105,Quantum Cryptography Protocols,"Quantum Key Distribution Protocols,Quantum Cryptanalysis",50,4.9,4700
+MAD505,Augmented Reality App Development,"AR Development,Unity Development,Vuforia",60,5,10300
+EHT405,Cloud Security,"Cloud Security Architecture,Identity and Access Management",55,4.9,6300
+CS606,Software Engineering,"Software Development Life Cycle,Agile Methodology,Software Testing",50,4.8,7700
+CND406,Network Forensics,"Packet Analysis,Network Traffic Analysis",45,4.5,5200
+WD506,Single Page Applications,"SPA Development,React,Angular,Vue.js",40,4.3,5600
+DL706,Recurrent Neural Networks,"RNNs,LSTM,GRU,Sequence Modeling",90,4.9,9000
+CSF706,Security Operations Center,"SOC Monitoring,Threat Hunting,Incident Response",60,4.7,7100
+NLP906,Sentiment Analysis,"Opinion Mining,Subjectivity Analysis",65,5,8200
+DBMS706,Big Data Analytics,"Hadoop,Spark,Big Data Processing",60,4.8,7300
+RA706,Biomimetic Robotics,"Bio-Inspired Robotics,Biomimicry,Robotic Exoskeletons",70,4.7,6400
+QC106,Quantum Information Science,"Quantum Entanglement,Quantum Superposition",60,5,4900
+MAD506,Virtual Reality App Development,"VR Development,Unity,360-degree Videos",70,5,10500
+EHT406,Wireless Security,"Wireless Security Protocols,802.11 Security",65,5,6500
+CS607,Cloud Computing,"Cloud Deployment Models,Cloud Service Models",55,4.9,7900
+CND407,Software-Defined Networking,"SDN,OpenFlow,Network Virtualization",50,4.8,5800
+WD507,Frontend Frameworks,"React,Angular,Vue.js",45,4.6,6100
+DL707,Convolutional Neural Networks,"CNNs,Image Recognition,Deep Learning for Vision",100,4.9,9200
+CSF707,Threat Intelligence,"Threat Hunting,Indicator of Compromise,IOC Analysis",65,4.8,7400
+NLP907,Named Entity Recognition,"NER Systems,Entity Extraction",70,5,8600
+DBMS707,Data Mining,"Association Rule Mining,Clustering,Classification",65,4.9,7800
+RA707,Human-Centered Robotics,"Human-Robot Interaction,Robotic Assistive Technologies",75,4.8,6800
+QC107,Quantum Computing Applications,"Quantum Computing Algorithms,Quantum Simulations",65,5,5100
+MAD507,Mobile Game Development,"Game Design,Mobile Gaming Platforms",75,5,10700
+EHT407,Wireless Penetration Testing,"Wi-Fi Penetration Testing,Bluetooth Hacking",70,5,6700
+CS608,Artificial Intelligence,"AI,Machine Learning,Deep Learning",65,5,8100
+CND408,Internet of Things,"IoT,Smart Devices,Embedded Systems",60,4.9,6000
+WD508,Backend Frameworks,"Node.js,Django,Spring Boot",55,4.7,6400
+DL708,Computer Vision,"Object Detection,Image Segmentation,Feature Extraction",110,5,9500
+CSF708,Incident Response and Management,"Cyber Incident Response,Security Breach Management",70,4.9,7600
+NLP908,Document Summarization,"Text Summarization,Document Understanding",75,5,9000
+DBMS708,Data Warehousing Solutions,"ETL Processes,Data Integration,Data Modeling",70,5,8200
+RA708,Soft Robotics,"Flexible Robotics,Soft Grippers,Soft Actuators",80,4.9,7100
+QC108,Quantum Machine Learning,"Quantum Neural Networks,Quantum Data Processing",70,5,5300
+MAD508,Mobile Application Security,"Mobile App Security Testing,Secure Mobile Development",80,5,10900
+EHT408,Security Information and Event Management,"SIEM Solutions,Log Management,Security Analytics",75,5,6900
+CS609,Cloud Security Architecture,"Cloud Security Controls,Cloud Compliance Frameworks",70,5,8400
+CND409,Virtual Private Networks,"VPN Protocols,VPN Encryption,Remote Access VPNs",65,4.9,6200
+WD509,Serverless Architecture,"Serverless Computing,Function as a Service (FaaS)",60,4.8,6700
+DL709,Transfer Learning,"Transfer Learning Techniques,Pre-trained Models",120,5,9800
+CSF709,Security Architecture and Design,"Security Frameworks,Security Models,Security Patterns",75,5,7800
+NLP909,Language Generation Models,"Text Generation,Conversational Agents",80,5,9400
+DBMS709,Data Privacy Solutions,"Privacy-Enhancing Technologies,Privacy by Design",75,5,8600
+RA709,Advanced Robotics Applications,"Industrial Robotics,Medical Robotics,Space Robotics",85,5,7300
+QC109,Post-Quantum Cryptography,"Quantum-Safe Cryptography,Quantum-Resistant Algorithms",75,5,5500
+MAD509,Progressive Web App Development,"PWA Development,Service Workers,Web Manifests",85,5,11100
+EHT409,Penetration Testing and Vulnerability Assessment,"Pen Testing Tools,Vulnerability Scanning",80,5,7100
+CS610,Software Testing and Quality Assurance,"QA Processes,Test Automation,Quality Metrics",75,5,8700
+CND410,Network Automation,"Network Automation Tools,Python for Network Automation",70,5,6400
+WD510,Static Site Generators,"Jekyll,Hugo,Gatsby",65,4.9,6800
+DL710,Deep Learning for Natural Language Processing,"NLP with Deep Learning,Sequence Modeling",130,5,10100
+CSF710,Cybersecurity Governance,"Security Policies,Compliance Frameworks,Risk Management",80,5,8000
+NLP910,Dialogue Systems,"Conversational AI,Chatbots,Virtual Assistants",85,5,9600
+DBMS710,Big Data Technologies,"Hadoop,Elasticsearch,Kafka",80,5,8800
+RA710,Swarm Robotics,"Swarm Algorithms,Collective Robotics,Multi-Robot Systems",90,5,7500
+QC110,Quantum Computing Simulations,"Quantum Circuit Simulations,Quantum Algorithm Simulators",80,5,5700
+MAD510,Mobile User Interface Design,"Mobile UI/UX Principles,Responsive Design",90,5,11300
+EHT410,Web Application Security,"OWASP Top 10,Vulnerability Assessment,Penetration Testing",85,5,7300
+DS101 , Introduction to Data Science,"data analysis ,data preprocessing , data preperation",45,4.2,1000

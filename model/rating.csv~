@@ -1,0 +1,12 @@
+course_id,course_name,tags,lectures_min,rating,subscribed_members
+CS601,Introduction to Computer Science,"Programming,Computer Science,Algorithms",30,4.2,5000
+CND401,Computer Networking Fundamentals,"Networking,Computer Networks,Internet",25,4,3800
+WD501,Web Development Basics,"Web Development,HTML,CSS,JavaScript,Frontend,Backend",20,4.5,6000
+DL701,Deep Learning Fundamentals,"Machine Learning,Deep Learning,Neural Networks,Artificial Intelligence",40,4.3,8000
+CSF701,Computer Security Fundamentals,"Cybersecurity,Security,Encryption,Data Protection",35,4.1,4500
+NLP901,Natural Language Processing,"NLP,Text Processing,Language Understanding,Machine Translation",45,4.6,7000
+DBMS701,Database Management Systems,"Databases,SQL,NoSQL,Relational Databases,Database Design",30,4.4,5500
+RA701,Robotics and Automation,"Robotics,Automation,Machine Vision,Control Systems",35,4.2,4800
+QC101,Quantum Computing Basics,"Quantum Computing,Quantum Mechanics,Quantum Algorithms,Quantum Cryptography",25,4.3,3500
+MAD501,Mobile App Development,"App Development,Android,iOS,React Native,Mobile UI/UX",40,4.7,9000
+EHT401,Ethical Hacking Techniques,"Cybersecurity,Hacking,Ethical Hacking,Penetration Testing,Network Security",30,4.5,5200
