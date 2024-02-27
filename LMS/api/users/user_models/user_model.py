@@ -50,7 +50,7 @@ class Users(AbstractBaseUser):
         self.id_instance = 0
 
     def get_profile_pic_filename(self,filename): 
-        folder_path = str(self.id)
+        folder_path = "upload/profile_pic/"+str(self.id)
         return os.path.join(folder_path,filename)
     
     id= models.IntegerField(primary_key=True)
@@ -67,7 +67,7 @@ class Users(AbstractBaseUser):
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
-    profile_pic = models.ImageField(upload_to=get_profile_pic_filename,default='/default/Default-Profile-Picture-Transparent-Image.png')
+    profile_pic = models.ImageField(upload_to=get_profile_pic_filename,default='/upload/profile_pic/default/Default-Profile-Picture-Transparent-Image.png')
     
 
 

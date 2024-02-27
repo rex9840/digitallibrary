@@ -100,8 +100,8 @@ AUTH_USER_MODEL = 'api.Users'
 
 #MEDIA URl config
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'image', 'upload', 'profile_Pic')
-MEDIA_URL = '/image/upload/profile_Pic/'
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'media')
+MEDIA_URL = '/media/'
 
 
 # Database
