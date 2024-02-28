@@ -54,7 +54,7 @@ class Users(AbstractBaseUser):
         return os.path.join(folder_path,filename)
     
     id= models.IntegerField(primary_key=True)
-    password = models.CharField(verbose_name="password")
+    password = models.CharField(verbose_name="password",max_length=255)
     date_joined = models.DateTimeField(verbose_name="date joined",auto_now_add=True)
     last_login = models.DateTimeField(verbose_name="last login",auto_now=True)
     email = models.EmailField(verbose_name="email",unique=True) 
