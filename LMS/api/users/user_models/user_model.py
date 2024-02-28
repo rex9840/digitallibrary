@@ -63,7 +63,6 @@ class Users(AbstractBaseUser):
     age = models.IntegerField()
     address = models.CharField(max_length=100)
     phone_number = models.IntegerField()
-    is_teacher = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
@@ -80,9 +79,7 @@ class Users(AbstractBaseUser):
        full_name =  f'{self.first_name}' +" " + f'{self.last_name}'
        if self.is_admin:
            return full_name + " (Admin)"
-       if self.is_teacher:
-           return full_name + " (Teacher)"
-       return full_name + " (Student)"
+       return full_name
 
     objects = UserManager()
 

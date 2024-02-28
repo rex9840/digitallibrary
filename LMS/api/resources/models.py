@@ -1,27 +1,37 @@
 from django.db import models
+import os
 
+class Tags(models.Model):
+    tag_id = models.AutoField(primary_key=True)
+    tag_name = models.CharField(max_length=100)
+    class Meta:
+        db_table = "Tags"
+    def __str__(self): 
+        return self.tag_name 
 
 
 class Resources(models.Model):
 
-    def get_profile_pic_filename(self,filename): 
-        folder_path = "upload/profile_pic/"+str(self.id)
+    def get_resources_filename(self,filename): 
+        folder_path = "upload/resource_image/"+str(self.resource_id)
         return os.path.join(folder_path,filename)
 
     def get_resource_file_filename(self,filename): 
-        folder_path = "upload/resource_file/"+str(self.id)
+        folder_path = "upload/resource_file/"+str(self.resource_id)
         return os.path.join(folder_path,filename)
     
-    id = models.AutoField(primary_key=True)
+    resource_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=500)
-    Resource_image = models.ImageField(upload_to=get_profile_pic_filename, null=True, blank=True)
-    Resource_file = models.FileField(upload_to='upload/resource_file', null=True, blank=True)
-
+    tags = models.ManyToManyField(Tags)
+    resource_image = models.ImageField(upload_to=get_resources_filename,
+                                       default='upload/resource_image/default_book.png')
+    resource_file = models.FileField(upload_to=get_resource_file_filename, null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         db_table = "Resources"
 
     def __str__(self):
-        return self.name+ "("+str(self.id)+")"
+        return self.name+ "("+str(self.resource_id)+")"
 
