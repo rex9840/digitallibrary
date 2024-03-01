@@ -25,7 +25,7 @@ class Resources(models.Model):
     description = models.CharField(max_length=500)
     tags = models.ManyToManyField(Tags)
     resource_image = models.ImageField(upload_to=get_resources_filename,
-                                       default='upload/resource_image/default_book.png')
+                                       default='upload/resource_image/default_book.png',null=True, blank=True)
     resource_file = models.FileField(upload_to=get_resource_file_filename, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

@@ -2,12 +2,9 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 
 class UserResourceInteraction(models.Model):
-    user_id = models.ForeignKey('Users', models.DO_NOTHING, db_column='user_id')
-    resource_id = models.ForeignKey('Resources', models.DO_NOTHING, db_column='resource_id')
+    user_id = models.ForeignKey('Users', models.CASCADE, db_column='user_id')
+    resource_id = models.ForeignKey('Resources', models.CASCADE, db_column='resource_id')
     rating = models.FloatField(validators=[MaxValueValidator(5)],default=0)
-    downloaded = models.BooleanField(default=False)
-    likes = models.BooleanField(default=0)
-    dislikes = models.BooleanField(default=0)
     class Meta:
         db_table = "UserResourceInteraction"
     

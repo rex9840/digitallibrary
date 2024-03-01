@@ -7,7 +7,7 @@ from .models import Tags, Resources
 @admin.register(Tags)
 class TagsAdmin(admin.ModelAdmin):
     list_display = ['tag_id','tag_name']
-    list_filter =['tag_name']
+    list_filter =['tag_id','tag_name']
 
 
 

@@ -12,8 +12,8 @@ class UserAdmin(admin.ModelAdmin):
 
 @admin.register(UserResourceInteraction)
 class UserResourceInteractionAdmin(admin.ModelAdmin):
-    list_display = ['user_id','resource_id','resource_name','rating','downloaded','likes','dislikes']
-    list_filter =['user_id','resource_id','rating','downloaded','likes','dislikes']
+    list_display = ['user_id','resource_id','resource_name','rating']
+    list_filter =['user_id','resource_id','rating']
 
     user_name = lambda self, obj: obj.user_id.first_name + " " + obj.user_id.last_name
     user_name.short_description = 'User Name'
