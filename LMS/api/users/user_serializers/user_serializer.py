@@ -11,7 +11,6 @@ class UserSerializer(serializers.ModelSerializer):
 
 class RegisterSerializer(serializers.ModelSerializer):
 
-    is_teacher = serializers.BooleanField(default=False)
     password = serializers.CharField(write_only=True)
     confirm_password = serializers.CharField(write_only=True)
     class Meta:

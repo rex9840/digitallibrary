@@ -1,0 +1,85 @@
+,user_id,resource_id,rating
+0,2 - user1@example.com,4 - Web Development Basics,3.89
+1,2 - user1@example.com,6 - Computer Security Fundamentals,2.45
+2,2 - user1@example.com,8 - Database Management Systems,4.76
+3,2 - user1@example.com,14 - Advanced Computer Networking,1.99
+4,2 - user1@example.com,4 - Web Development Basics,3.89
+5,2 - user1@example.com,6 - Computer Security Fundamentals,2.45
+6,2 - user1@example.com,8 - Database Management Systems,4.76
+7,2 - user1@example.com,14 - Advanced Computer Networking,1.99
+8,3 - user2@example.com,3 - Computer Networking Fundamentals,4.32
+9,3 - user2@example.com,9 - Robotics and Automation,3.21
+10,3 - user2@example.com,15 - Advanced Web Development,4.87
+11,4 - user3@example.com,2 - Introduction to Computer Science,1.54
+12,4 - user3@example.com,5 - Deep Learning Fundamentals,3.76
+13,4 - user3@example.com,10 - Quantum Computing Basics,2.99
+14,4 - user3@example.com,12 - Ethical Hacking Techniques,4.32
+15,5 - user4@example.com,3 - Computer Networking Fundamentals,4.65
+16,5 - user4@example.com,7 - Natural Language Processing,2.21
+17,5 - user4@example.com,11 - Mobile App Development,3.87
+18,5 - user4@example.com,14 - Advanced Computer Networking,1.56
+19,5 - user4@example.com,25 - Network Security,4.32
+20,6 - user5@example.com,4 - Web Development Basics,2.11
+21,6 - user5@example.com,8 - Database Management Systems,4.56
+22,6 - user5@example.com,16 - Advanced Deep Learning,3.76
+23,6 - user5@example.com,27 - Machine Learning,2.99
+24,7 - user6@example.com,2 - Introduction to Computer Science,4.32
+25,7 - user6@example.com,5 - Deep Learning Fundamentals,3.87
+26,7 - user6@example.com,9 - Robotics and Automation,2.56
+27,7 - user6@example.com,13 - Advanced Computer Science,4.65
+28,8 - user7@example.com,3 - Computer Networking Fundamentals,2.78
+29,8 - user7@example.com,6 - Computer Security Fundamentals,3.65
+30,8 - user7@example.com,12 - Ethical Hacking Techniques,1.99
+31,8 - user7@example.com,28 - Information Security,2.21
+32,9 - user8@example.com,4 - Web Development Basics,2.45
+33,9 - user8@example.com,7 - Natural Language Processing,4.32
+34,9 - user8@example.com,10 - Quantum Computing Basics,3.21
+35,10 - user9@example.com,2 - Introduction to Computer Science,2.56
+36,10 - user9@example.com,5 - Deep Learning Fundamentals,4.65
+37,10 - user9@example.com,9 - Robotics and Automation,1.54
+38,10 - user9@example.com,15 - Advanced Web Development,3.22
+39,10 - user9@example.com,24 - Data Structures and Algorithms,2.99
+40,11 - user10@example.com,3 - Computer Networking Fundamentals,4.32
+41,11 - user10@example.com,6 - Computer Security Fundamentals,3.65
+42,11 - user10@example.com,11 - Mobile App Development,2.11
+43,11 - user10@example.com,13 - Advanced Computer Science,4.76
+44,11 - user10@example.com,26 - Full Stack Web Development,1.99
+45,12 - user11@example.com,4 - Web Development Basics,2.56
+46,12 - user11@example.com,8 - Database Management Systems,4.65
+47,12 - user11@example.com,16 - Advanced Deep Learning,1.54
+48,12 - user11@example.com,27 - Machine Learning,3.87
+49,13 - user12@example.com,2 - Introduction to Computer Science,2.99
+50,13 - user12@example.com,5 - Deep Learning Fundamentals,4.87
+51,13 - user12@example.com,10 - Quantum Computing Basics,3.22
+52,13 - user12@example.com,12 - Ethical Hacking Techniques,1.87
+53,14 - user13@example.com,3 - Computer Networking Fundamentals,4.32
+54,14 - user13@example.com,7 - Natural Language Processing,3.65
+55,14 - user13@example.com,11 - Mobile App Development,2.56
+56,14 - user13@example.com,14 - Advanced Computer Networking,4.65
+57,14 - user13@example.com,25 - Network Security,1.54
+58,15 - user14@example.com,2 - Introduction to Computer Science,3.76
+59,15 - user14@example.com,5 - Deep Learning Fundamentals,2.45
+60,15 - user14@example.com,9 - Robotics and Automation,4.32
+61,15 - user14@example.com,10 - Quantum Computing Basics,3.21
+62,16 - user15@example.com,3 - Computer Networking Fundamentals,4.56
+63,16 - user15@example.com,6 - Computer Security Fundamentals,1.99
+64,16 - user15@example.com,8 - Database Management Systems,3.76
+65,16 - user15@example.com,16 - Advanced Deep Learning,2.45
+66,16 - user15@example.com,28 - Information Security,4.32
+67,17 - user16@example.com,4 - Web Development Basics,4.87
+68,17 - user16@example.com,7 - Natural Language Processing,3.21
+69,17 - user16@example.com,10 - Quantum Computing Basics,2.56
+70,18 - user17@example.com,2 - Introduction to Computer Science,4.32
+71,18 - user17@example.com,5 - Deep Learning Fundamentals,3.87
+72,18 - user17@example.com,9 - Robotics and Automation,2.21
+73,18 - user17@example.com,13 - Advanced Computer Science,4.65
+74,19 - user18@example.com,3 - Computer Networking Fundamentals,2.78
+75,19 - user18@example.com,6 - Computer Security Fundamentals,3.65
+76,19 - user18@example.com,12 - Ethical Hacking Techniques,1.99
+77,19 - user18@example.com,28 - Information Security,2.21
+78,20 - user19@example.com,4 - Web Development Basics,2.45
+79,20 - user19@example.com,7 - Natural Language Processing,4.32
+80,20 - user19@example.com,10 - Quantum Computing Basics,3.21
+81,21 - user20@example.com,2 - Introduction to Computer Science,2.56
+82,21 - user20@example.com,5 - Deep Learning Fundamentals,4.65
+83,21 - user20@example.com,9 - Robotics and Automation,1.54

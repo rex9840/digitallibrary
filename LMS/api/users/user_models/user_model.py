@@ -62,7 +62,7 @@ class Users(AbstractBaseUser):
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()
     address = models.CharField(max_length=100)
-    phone_number = models.IntegerField()
+    phone_number = models.IntegerField(null=True,blank=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
@@ -71,15 +71,15 @@ class Users(AbstractBaseUser):
 
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name','last_name','age','address','phone_number','password']
+    REQUIRED_FIELDS = ['first_name','last_name','age','address','password']
     PASSWORD_FIELD = 'password'
 
 
     def __str__(self):
-       full_name =  f'{self.first_name}' +" " + f'{self.last_name}'
-       if self.is_admin:
-           return full_name + " (Admin)"
-       return full_name
+    #   full_name =  f'{self.first_name}' +" " + f'{self.last_name}'
+    #   if self.is_admin:
+    #       return full_name + " (Admin)"
+       return str(self.id) + " - " + self.email
 
     objects = UserManager()
 

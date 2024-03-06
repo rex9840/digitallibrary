@@ -33,5 +33,5 @@ class Resources(models.Model):
         db_table = "Resources"
 
     def __str__(self):
-        return self.name+ "("+str(self.resource_id)+")"
+        return str(self.resource_id) + " - " + self.name
 
