@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .recomendations.data_preprocessing import data_preprocessing
+from .recomendations.recomendation import get_recommendations
 
 
 def test(request): 
-    recommendations = data_preprocessing()
+    recommendations = get_recommendations(2)
     data = {
             'recomendations': recommendations.to_html()
             }

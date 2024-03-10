@@ -7,7 +7,7 @@ class Tags(models.Model):
     class Meta:
         db_table = "Tags"
     def __str__(self): 
-        return self.tag_name 
+        return self.tag_name
 
 
 class Resources(models.Model):
@@ -28,7 +28,7 @@ class Resources(models.Model):
                                        default='upload/resource_image/default_book.png',null=True, blank=True)
     resource_file = models.FileField(upload_to=get_resource_file_filename, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-
+    uploaded_by = models.ForeignKey("Users",on_delete=models.CASCADE)
     class Meta:
         db_table = "Resources"
 
