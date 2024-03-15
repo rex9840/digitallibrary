@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 import os
 
-from django.db.models.fields import is_iterable
 
 class UserManager(BaseUserManager):
 
@@ -62,7 +61,7 @@ class Users(AbstractBaseUser):
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()
     address = models.CharField(max_length=100)
-    phone_number = models.IntegerField(null=True,blank=True)
+    phone_number = models.CharField(null=True,blank=True,max_length=15)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
@@ -71,7 +70,7 @@ class Users(AbstractBaseUser):
 
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name','last_name','age','address','password']
+    REQUIRED_FIELDS = ['first_name','last_name','age','address','phone_number','password']
     PASSWORD_FIELD = 'password'
 
 
@@ -95,8 +94,8 @@ class Users(AbstractBaseUser):
         return True
 
     def id_count(self):
-        if Users.objects.last():
-            self.id_instance = Users.objects.last().id
+        if Users.objects.count() > 0:
+            self.id_instance = Users.objects.latest('id').id
         self.id_instance += 1
         return self.id_instance
 

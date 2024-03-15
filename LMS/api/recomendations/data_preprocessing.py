@@ -48,8 +48,9 @@ def tag_expansion(x):
 
 def data_preprocessing(): 
     data = pd.DataFrame(get_resources())
+    print(data.head())
     data = data.drop(columns = ["name"])
-    
+        
     slice = data.copy()
 
     slice = slice.apply(tag_expansion, axis=1)

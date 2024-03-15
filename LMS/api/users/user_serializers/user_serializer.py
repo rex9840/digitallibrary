@@ -6,7 +6,7 @@ from api.users.models import Users
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model  = Users
-        exclude = ['id','is_staff','is_admin','is_teacher','is_active']
+        exclude = ['password','is_staff','is_admin','is_active']
 
 
 class RegisterSerializer(serializers.ModelSerializer):
