@@ -23,7 +23,6 @@ class UsersCreate(viewsets.ModelViewSet):
             serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
-    
 
 
 class UserView(viewsets.ModelViewSet):

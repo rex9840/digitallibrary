@@ -9,7 +9,7 @@ from django.http import JsonResponse
 
 
 class UserRatingViewSet(viewsets.ModelViewSet):
-    allowed_methods = ['GET', 'POST']
+    http_method_names = ['GET', 'POST']
     queryset = UserResourceInteraction.objects.all()
     
     def get_serializer_class(self):

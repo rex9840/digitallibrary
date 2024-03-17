@@ -1,19 +1,11 @@
 from rest_framework import serializers
-from .models import Users , UserResourceInteraction , Resources
+from ..resources.serializers import ResourcesSerializer 
+from ..models import Resources,Users , UserResourceInteraction
 
 
-
-
-class ResourceSerializer(serializers.Serializer): 
-    class Meta:
-        model = Resources 
-        fields = __all__
-
-
-
-class Recomendations(serializers.Serializer): 
+class RecomendationsSerializer(serializers.Serializer): 
     user_id = serializers.IntegerField()
-    resources = ResourceSerializer(many=True)
+    resources = ResourcesSerializer(many=True)
     class Meta:
         fields = ['user_id','resources'] 
 

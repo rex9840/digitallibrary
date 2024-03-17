@@ -11,6 +11,6 @@ urlpatterns = [
     path('', include(user_urls)),
     path('test/', test, name='test'),    
     path('', include(recomendations_urls)),
-    path('', include(resources_urls))
-
+    path('', include(resources_urls)),
+    path('',include(user_urls)),
 ]
