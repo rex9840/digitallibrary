@@ -9,9 +9,9 @@ from django.http import JsonResponse
 
 
 class UserRatingViewSet(viewsets.ModelViewSet):
-    http_method_names = ['GET', 'POST']
     queryset = UserResourceInteraction.objects.all()
-    
+    http_method_names = ['get','post']
+
     def get_serializer_class(self):
         if self.request.method == 'POST':
             return UserRatingPost
@@ -29,6 +29,5 @@ class UserRatingViewSet(viewsets.ModelViewSet):
     def user_rating(self, request,pk=None):
         user_rating = UserResourceInteraction.objects.filter(user_id=pk) 
         serializer = UserRating(user_rating, many=True)
-        print(serializer.data)
         return JsonResponse(serializer.data, safe=False)
     
