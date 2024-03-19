@@ -10,7 +10,6 @@ class UserSerializer(serializers.ModelSerializer):
         exclude = ['is_staff','is_admin','is_active']
 
     def update(self, instance, validated_data):
-
         if 'password' in validated_data: 
             del validated_data['password']
 

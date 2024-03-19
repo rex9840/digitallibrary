@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import Resources, Tags 
+from .models import Resources, Tags
+from ..users.models import Users
 from api.models import UserResourceInteraction
 from django.db.models import Avg
 
@@ -32,7 +33,7 @@ class ResourceCreateSerializer(serializers.ModelSerializer):
     tags = serializers.PrimaryKeyRelatedField(many=True,queryset=Tags.objects.all())
     class Meta: 
         model = Resources
-        fields = ['name','description','tags','resource_image','resource_file','uploaded_by']
+        fields = ['resource_id','name','description','tags','resource_image','resource_file']
 
 
 

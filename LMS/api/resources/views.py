@@ -22,10 +22,9 @@ class ReourcesCreateViewSet(viewsets.ModelViewSet):
     queryset = Resources.objects.all()
 
     def create(self,request,*args,**kwargs):
-        serializer = ResourceCreateSerializer(data=request.data)
+        serializer = ResourceCreateSerializer(data=request.data,partial=True)
         if serializer.is_valid():
-            serializer.validated_data['uploaded_by'] = request.user
-            serializer.save()
+            serializer.save(uploaded_by=request.user)
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)
 
@@ -50,24 +49,18 @@ class ResourcesViewSet(viewsets.ModelViewSet):
 
 
 
-    def destroy(self, request, *args, **kwargs):
-        if request.user.is_admin:
-            return JsonResponse({'message': 'please use admin pannel'}, status=403)
+    def destroy(self, request,pk=None):
+        resource = Resources.objects.get(resource_id=pk)
 
-        resource = Resources.objects.get(resource_id=request.data['resource_id'])
         if resource.uploaded_by.id != request.user.id:
             return JsonResponse({'message': 'You are not authorized to delete this resource'}, status=403)
         resource.delete()
         return JsonResponse({'message': 'Resource was deleted successfully!'}, status=204) 
     
 
-    def partial_update(self, request, *args, **kwargs):
-        if request.user.is_admin:
-            return JsonResponse({'message': 'please use admin pannel'}, status=403)
-        
-        
-        resource = Resources.objects.get(resource_id=request.data['resource_id'])
-        
+    def partial_update(self, request,pk=None):
+        resource = Resources.objects.get(resource_id=pk) 
+
         if resource.uploaded_by.id != request.user.id:
             return JsonResponse({'message': 'You are not authorized to update this resource'}, status=403)
         
