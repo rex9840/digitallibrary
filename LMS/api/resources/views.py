@@ -70,4 +70,11 @@ class ResourcesViewSet(viewsets.ModelViewSet):
             serializer.save()
             return JsonResponse(serializer.data, status=200)
         return JsonResponse(serializer.errors, status=400)
+    
+
+    @action(detail=False, methods=['GET'],permission_classes=[IsAuthenticated])
+    def all_resources(self, request):
+        resources = Resources.objects.all()
+        serializer = ResourcesSerializer(resources, many=True)
+        return JsonResponse(serializer.data, safe=False) 
 
