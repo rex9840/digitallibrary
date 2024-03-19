@@ -49,13 +49,17 @@ class UserView(viewsets.ModelViewSet):
         user = Users.objects.get(id=request.user.id)
         user.delete()
         return JsonResponse({'message': 'User was deleted successfully!'}, status=204) 
-    
+   
 
     def partial_update(self, request, *args, **kwargs):
         if request.user.is_admin:
-            return JsonResponse({'message': 'please use admin pannel'}, status=403)
-        
+            return JsonResponse({'message': 'please use admin pannel'}, status=403) 
         user = Users.objects.get(id=request.user.id)
+        
+        if user.id != request.user.id:
+            return JsonResponse({'message': 'you are not allowed to update this user'}, status=403) 
+
+
         serializer = UserSerializer(user, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
