@@ -57,8 +57,6 @@ class UserView(viewsets.ModelViewSet):
             return JsonResponse({'message': 'please use admin pannel'}, status=403) 
        
         user = Users.objects.get(id=pk)
-        
-        print(user.password)
 
         if user.id != request.user.id:
             return JsonResponse({'message': 'you are not allowed to update this user'}, status=403) 
