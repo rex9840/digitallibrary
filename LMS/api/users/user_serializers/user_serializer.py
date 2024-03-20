@@ -4,21 +4,14 @@ from django.contrib.auth.hashers import make_password
 from api.users.models import Users
 
 class UserSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, required=False)
+    password = serializers.CharField(write_only=True)
     class Meta:
         model  = Users
-        exclude = ['is_staff','is_admin','is_active']
-
+        exclude = ['is_staff','is_admin','is_active'] 
     def update(self, instance, validated_data):
-        if 'password' in validated_data: 
-            del validated_data['password']
+        return super().update(instance, validated_data) 
 
-        for attr, value in validated_data.items():
-            setattr(instance, attr, value)
-        instance.save() 
-        return instance 
 
-        
 
 
 
