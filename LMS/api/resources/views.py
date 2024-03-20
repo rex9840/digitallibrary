@@ -33,8 +33,6 @@ class ReourcesCreateViewSet(viewsets.ModelViewSet):
 class ResourcesViewSet(viewsets.ModelViewSet): 
     http_method_names  = ['get','patch','delete']
     permission_classes = [IsAuthenticated]
-
-
     
     def get_queryset(self,*args,**kwargs):
         if self.request.user.is_admin and self.request.method == 'GET':
