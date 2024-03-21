@@ -52,10 +52,10 @@ INSTALLED_APPS = [
 CORS_ALLOWED_ALL_ORIGINS = True
 
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-]
-
+#CORS_ALLOWED_ORIGINS = [
+#    'http://localhost:5173',
+#]
+#
 
 #JWT AUTHENTICATION for rest framework
 REST_FRAMEWORK = {
@@ -79,6 +79,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    # cors middleware 
+    'corsheaders.middleware.CorsMiddleware', 
+
+    
 ]
 
 ROOT_URLCONF = 'LMS.urls'
