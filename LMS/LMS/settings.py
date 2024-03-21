@@ -80,9 +80,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
     # cors middleware 
-    'corsheaders.middleware.CorsMiddleware', 
-
-    
+    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsPostCsrfMiddleware',    
 ]
 
 ROOT_URLCONF = 'LMS.urls'
