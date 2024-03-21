@@ -81,7 +81,6 @@ MIDDLEWARE = [
     
     # cors middleware 
     'corsheaders.middleware.CorsMiddleware',
-    'corsheaders.middleware.CorsPostCsrfMiddleware',    
 ]
 
 ROOT_URLCONF = 'LMS.urls'
