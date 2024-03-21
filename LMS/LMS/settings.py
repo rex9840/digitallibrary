@@ -49,13 +49,12 @@ INSTALLED_APPS = [
 
 #CORS ALLOWED ORIGIN for api calls
 
-CORS_ALLOWED_ALL_ORIGINS = True
 
 
-#CORS_ALLOWED_ORIGINS = [
-#    'http://localhost:5173',
-#]
-#
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+]
+
 
 #JWT AUTHENTICATION for rest framework
 REST_FRAMEWORK = {
