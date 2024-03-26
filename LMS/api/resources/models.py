@@ -1,5 +1,8 @@
 from django.db import models
 import os
+import fitz
+from django.conf import settings
+
 
 class Tags(models.Model):
     tag_id = models.AutoField(primary_key=True)
@@ -34,4 +37,33 @@ class Resources(models.Model):
 
     def __str__(self):
         return str(self.resource_id) + " - " + self.name
+    
+    def extract_image(self):
+        BASE_DIR = settings.BASE_DIR 
+        file = self.resource_file
+        file_path = os.path.join(BASE_DIR,settings.MEDIA_ROOT)+"\\"+str(file).replace("/","\\")
+
+        doc = fitz.open(file_path) 
+
+        first_page = doc[0]
+
+        image_path = os.path.join(BASE_DIR,settings.MEDIA_ROOT)+"\\upload\\resource_image\\"+str(self.resource_id)+"\\" 
+        pix = first_page.get_pixmap(matrix=fitz.Identity,dpi=None,colorspace=fitz.csRGB,clip=None,alpha=True,annots=True)
+
+        os.makedirs(image_path,exist_ok=True)
+        print(image_path)
+        
+        pix.save(image_path+"cover_page.png")
+
+        doc.close()
+
+        return "upload/resource_image/"+str(self.resource_id)+"/cover_page.png"    
+    
+
+    def save(self,*arg,**kwarg): 
+        super(Resources,self).save(*arg,**kwarg)
+        if self.resource_file:
+           image_path =  self.extract_image()
+           self.resource_image = image_path 
+        super(Resources,self).save(*arg,**kwarg)
 
