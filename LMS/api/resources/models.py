@@ -27,8 +27,7 @@ class Resources(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=500)
     tags = models.ManyToManyField(Tags,blank=True)
-    resource_image = models.ImageField(upload_to=get_resources_filename,
-                                       default='upload/resource_image/default_book.png',null=True, blank=True)
+    resource_image = models.ImageField(upload_to=get_resources_filename,null=True, blank=True)
     resource_file = models.FileField(upload_to=get_resource_file_filename, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     uploaded_by = models.ForeignKey("Users",on_delete=models.CASCADE)
@@ -64,6 +63,10 @@ class Resources(models.Model):
         if self.resource_file and not self.resource_image:
             super(Resources,self).save(*arg,**kwarg)
             image_path =  self.extract_image()
-            self.resource_image = image_path 
-        super(Resources,self).save(*arg,**kwarg)
+            self.resource_image = image_path
+            obj = Resources.objects.get(resource_id=self.resource_id)
+            obj.resource_image = image_path 
+            obj.save()
+        else:
+            super(Resources,self).save(*arg,**kwarg) 
 
