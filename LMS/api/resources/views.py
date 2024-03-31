@@ -37,7 +37,7 @@ class ResourcesViewSet(viewsets.ModelViewSet):
     def get_queryset(self,*args,**kwargs):
         if self.request.user.is_admin and self.request.method == 'GET':
             return Resources.objects.all()  
-        return Resources.objects.filter(uploaded_by=self.request.user.id)
+        return Resources.objects.filter(uploaded_by=self.request.user)
 
 
     def get_serializer_class(self): 

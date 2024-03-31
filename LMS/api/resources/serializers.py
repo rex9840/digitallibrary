@@ -33,7 +33,7 @@ class ResourceCreateSerializer(serializers.ModelSerializer):
     tags = serializers.PrimaryKeyRelatedField(many=True,queryset=Tags.objects.all())
     class Meta: 
         model = Resources
-        fields = ['resource_id','name','description','tags','resource_image','resource_file']
+        fields = ['name','description','tags','resource_image','resource_file']
 
 
 

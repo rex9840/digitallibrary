@@ -61,9 +61,9 @@ class Resources(models.Model):
     
 
     def save(self,*arg,**kwarg): 
-        super(Resources,self).save(*arg,**kwarg)
-        if self.resource_file:
-           image_path =  self.extract_image()
-           self.resource_image = image_path 
+        if self.resource_file and not self.resource_image:
+            super(Resources,self).save(*arg,**kwarg)
+            image_path =  self.extract_image()
+            self.resource_image = image_path 
         super(Resources,self).save(*arg,**kwarg)
 
