@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import sklearn as sk
 import csv 
-from sklearn.cluster import KMeans
-
+from .algorithm import KMEANS 
 from ..models import UserResourceInteraction,Users,Resources
 
 
@@ -75,10 +74,9 @@ def data_preprocessing():
     user_resources.head() 
     
 
-    kmeans = KMeans(n_clusters=4,n_init=10,random_state=42)
+    kmeans = KMEANS(n_clusters=4,random_state=10,max_iter=300)
     users_with_label = pd.DataFrame(user_resources)
-    users_with_label["label"]=kmeans.fit_predict(user_resources)
-    
+    users_with_label["label"]= kmeans.fit(users_with_label.values)
 
     users_with_label = pd.DataFrame(get_user_resources()).join(users_with_label['label'], on='user_id')
     
