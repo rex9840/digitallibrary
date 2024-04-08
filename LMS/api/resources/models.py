@@ -79,6 +79,5 @@ class Resources(models.Model):
             obj = Resources.objects.get(resource_id=self.resource_id)
             obj.resource_image = self.resource_image
             obj.save()
-
         else: 
-            super().save(*arg,**kwarg)
+            super(Resources,self).save(*arg,**kwarg)

@@ -29,7 +29,6 @@ class UserRatingViewSet(viewsets.ModelViewSet):
         rating = request.data['rating']
         
         serilizer = UserRatingPost(data={'user_id':user_id.id, 'resource_id':resource_id.resource_id, 'rating':rating})
-
         if serilizer.is_valid(): 
             serilizer.save()
             return JsonResponse(serilizer.data, status=201) 
@@ -43,4 +42,3 @@ class UserRatingViewSet(viewsets.ModelViewSet):
         user_rating = UserResourceInteraction.objects.filter(user_id=pk) 
         serializer = UserRating(user_rating, many=True)
         return JsonResponse(serializer.data, safe=False)
-    

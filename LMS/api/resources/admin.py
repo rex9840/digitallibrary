@@ -14,7 +14,7 @@ class TagsAdmin(admin.ModelAdmin):
 @admin.register(Resources)
 class ResourceAdmin(admin.ModelAdmin): 
     list_display = ['resource_id','name','description','tags_list','resource_image','resource_file','created_at','uploaded_by'] 
-    exclude = ["resource_id"]
+    exclude = ["resource_id","resource_image"]
     list_filter = ['name','tags','created_at','uploaded_by']
     
     def tags_list(self, obj):
