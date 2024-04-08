@@ -3,7 +3,7 @@ import numpy as np
 import sklearn as sk
 import csv 
 from .algorithm import KMEANS 
-from ..models import UserResourceInteraction,Users,Resources
+from ..models import UserResourceInteraction,Resources
 
 
 def get_resources(): 
