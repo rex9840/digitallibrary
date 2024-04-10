@@ -1,6 +1,6 @@
 {
         "build" : [{
-                "src" : "LMS\LMS\wsgi.py", 
+                "src" : "LMS\wsgi.py", 
                 "use"  : "@vercel/python",
                 "config" : { "maxLambdaSize": "15mb" , "runtime": "python3.12" } 
 
@@ -9,7 +9,7 @@
         "routes": [
                 {
                         "src": "/(.*)",
-                        "dest": "LMS/LMS/wsgi.py"
+                        "dest": ""LMS/wsgi.py"
                 }
         ]
 }
